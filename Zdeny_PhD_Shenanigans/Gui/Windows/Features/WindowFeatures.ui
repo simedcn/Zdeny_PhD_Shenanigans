@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>173</x>
-      <y>78</y>
+      <y>89</y>
       <width>141</width>
       <height>22</height>
      </rect>
@@ -73,7 +73,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>80</y>
+      <y>91</y>
       <width>51</width>
       <height>16</height>
      </rect>
@@ -82,65 +82,11 @@
      <string>feature type</string>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>11</y>
-      <width>311</width>
-      <height>55</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>image 1 path</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="lineEdit">
-       <property name="text">
-        <string>D:\\MainOutput\\S-wind\\cropped5\\crop0.PNG</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>image 2 path</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEdit_2">
-       <property name="text">
-        <string>D:\\MainOutput\\S-wind\\cropped5\\crop1.PNG</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="label_9">
-       <property name="text">
-        <string>images path</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit_8">
-       <property name="text">
-        <string>D:\\MainOutput\\S-wind\\cropped5\\crop</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>120</y>
+      <y>131</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -153,7 +99,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>83</y>
+      <y>94</y>
       <width>101</width>
       <height>150</height>
      </rect>
@@ -268,6 +214,74 @@
       <widget class="QLineEdit" name="lineEdit_11">
        <property name="text">
         <string>7</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>12</y>
+      <width>321</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>image 1 path</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="text">
+        <string>D:\\MainOutput\\S-wind\\cropped5\\crop0.PNG</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>image 2 path</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="text">
+        <string>D:\\MainOutput\\S-wind\\cropped5\\crop1.PNG</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>images path</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="text">
+        <string>D:\\MainOutput\\S-wind\\cropped5\\crop</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>output path</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="text">
+        <string>D:\\MainOutput\\S-wind\\features\\</string>
        </property>
       </widget>
      </item>
